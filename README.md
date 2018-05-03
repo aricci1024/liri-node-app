@@ -1,11 +1,16 @@
 # liri-node-app
 Language Interpretation and Recognition Interface
 
+TO USE:
+1) npm install the package
+2) create your own .env file to access information from twitter and spotify
+
+
 What Each Command Should Do
  1) node liri.js my-tweets
          - This will show your last 20 tweets and when they were created at in your terminal/bash window.
 
- 2) node liri.js spotify-this-song '<song name here>'
+ 2) node liri.js spotify-this-song '<song name here>':
          - This will show the following information about the song in your terminal/bash window
            - Artist(s)
            - The song's name
